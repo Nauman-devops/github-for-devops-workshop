@@ -15,3 +15,21 @@
     git commit -m "added testing file"
     rm testing.py
     git restore testing.py
+
+  
+    git remote add origin https://github.com/Nauman-devops/github-for-devops-workshop.git
+    git remote -v
+    git remote set-url origin https://Personal Access Token@github.com/Nauman-devops/github-for-devops-workshop.git
+    git remote -v
+    git push origin master
+    git commit -m "added testing file"
+  
+  
+    cd Documents/
+    cd git/
+    mkdir github-to-local
+    cd github-to-local/
+    git clone https://github.com/Nauman-devops/github-for-devopsworkshop.git
+    cd github-for-devopsworkshop/
+    ls
+    history
